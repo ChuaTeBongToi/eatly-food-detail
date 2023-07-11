@@ -253,14 +253,17 @@ hr {
     width: fit-content;
 }
 
-#healthy {
+#healthy-ctn {
     width: 70px;
-    margin-top: 70px;
+}
+
+#healthy {
+    margin-top: 60px;
     flex-direction: column;
     border-radius: 5.749px;
     background: #F7EDD0;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 #healthy {
