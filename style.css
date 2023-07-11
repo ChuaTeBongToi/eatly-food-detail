@@ -246,22 +246,31 @@ hr {
     text-align: right;
 }
 
-#healthy {
-    margin-top: 70px;
+
+.description {
     display: flex;
-    text-align: center;
     flex-direction: column;
-    flex-shrink: 0;
-    width: 70.139px;
-    height: 23.446px;
+    width: fit-content;
+}
+
+#healthy {
+    width: 70px;
+    margin-top: 70px;
+    flex-direction: column;
     border-radius: 5.749px;
     background: #F7EDD0;
-    color: #DAA31A;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#healthy {
+    text-align: center;
     font-family: Poppins;
     font-size: 13.602px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    color: #DAA31A;
 }
 
 .description-title {
@@ -645,6 +654,7 @@ hr {
 }
 
 .recommend-item img {
+    margin-top: 3.5px;
     margin-left: 15px;
     width: 72.523px;
     height: 75.165px;
