@@ -28,10 +28,12 @@ nav {
 }
 
 .logo-img {
+    cursor: pointer;
     margin-right: 11px;
 }
 
 .logo-title {
+    cursor: pointer;
     margin-top: auto;
     margin-bottom: auto;
     color: #6C5FBC;
